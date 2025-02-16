@@ -51,3 +51,9 @@ Here's a breakdown of the project's file structure:
 *   `README.md`: This file! It provides an overview of the project, setup instructions, features, and other useful information.
 
 
+ ## 📞 Contact
+If you have any questions or feedback, feel free to reach out:
+* **GitHub**: Shashank-Ge
+
+* **Email**: goelshashank2005@gmail.com
+

@@ -9,7 +9,7 @@ Stay ahead in the crypto game with this real-time Cryptocurrency Price Tracker! 
 ## ✨ Features
 
 *   **Real-Time Updates:** Prices update live using Binance WebSockets for minimal latency.
-*   **Top 30 Cryptocurrencies:** Tracks a curated list of major cryptocurrencies (Bitcoin, Ethereum, Binance Coin, and many more!).  See the full list [here](https://www.binance.com/en-IN/price  _blank).
+*   **Top 30 Cryptocurrencies:** Tracks a curated list of major cryptocurrencies (Bitcoin, Ethereum, Binance Coin, and many more!).  See the full list [here](https://www.binance.com/en-IN/price ){:target="_blank"}.
 *   **Sleek & Responsive Design:** Clean, modern interface that looks great on any device.
 *   **Easy-to-Read Display:** Clear presentation of cryptocurrency names and prices.
 *   **Automatic Reconnection:** Automatically reconnects to the WebSocket if the connection is lost.
@@ -38,6 +38,16 @@ Get your Cryptocurrency Price Tracker running with these simple steps:
 3.  **Watch Crypto Prices Update in Real-Time!**
 
 ## 📂 Project Structure
-![html file] (/index.html) 
-![css file] (/styles5.css)
-![javascript file] (/script.js)
+## 📂 Project Structure
+
+Here's a breakdown of the project's file structure:
+
+*   `index.html`: The main HTML file that defines the structure of the webpage and includes references to the CSS and JavaScript files. It's the entry point of the application.
+
+*   `styles5.css`: This CSS file contains all the styling rules for the webpage, including the layout, colors, fonts, and responsiveness.
+
+*   `script.js`:  The JavaScript file responsible for fetching cryptocurrency data from the CoinGecko API and Binance WebSocket, processing the data, and dynamically updating the webpage in real-time. It also handles WebSocket reconnection logic.
+
+*   `README.md`: This file! It provides an overview of the project, setup instructions, features, and other useful information.
+
+

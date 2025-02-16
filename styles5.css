@@ -5,7 +5,70 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* Light blue gradient */
+    background: linear-grbody {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    }
+    
+    .container {
+        text-align: center;
+        background: linear-gradient(135deg, #668a98, rgb(111, 131, 197));
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        max-width: 1200px;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+    }
+    
+    .grid-item {
+        background: linear-gradient(135deg, #fdfbfb, #ebedee);
+        color: #333;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .grid-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .grid-container {
+            display: flex; /* flexbox for mobile */
+            overflow-x: auto; /*  horizontal scrolling */
+            scroll-snap-type: x mandatory; /* Snap scrolling */
+            padding-bottom: 10px; /* Space for scrollbar */
+            gap: 10px; /* Space between items */
+        }
+    
+        .grid-item {
+            flex: none; /* Prevent flex items from growing */
+            width: 200px; /* Fixed width for items */
+            scroll-snap-align: start; /* Align items to start */
+            margin-right: 10px; /* Space between items */
+            min-width: calc(100vw - 30px); /* Full width minus margins */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+    }
+    dient(135deg, #a1c4fd, #c2e9fb); /* Light blue gradient */
 }
 
 .container {

@@ -9,7 +9,7 @@ Stay ahead in the crypto game with this real-time Cryptocurrency Price Tracker! 
 ## ✨ Features
 
 *   **Real-Time Updates:** Prices update live using Binance WebSockets for minimal latency.
-*   **Top 30 Cryptocurrencies:** Tracks a curated list of major cryptocurrencies (Bitcoin, Ethereum, Binance Coin, and many more!).  See the full list [here](https://www.binance.com/en-IN/price).
+*   **Top 30 Cryptocurrencies:** Tracks a curated list of major cryptocurrencies (Bitcoin, Ethereum, Binance Coin, and many more!).  See the full list [here](https://www.binance.com/en-IN/price  _blank).
 *   **Sleek & Responsive Design:** Clean, modern interface that looks great on any device.
 *   **Easy-to-Read Display:** Clear presentation of cryptocurrency names and prices.
 *   **Automatic Reconnection:** Automatically reconnects to the WebSocket if the connection is lost.
